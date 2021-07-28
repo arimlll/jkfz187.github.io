@@ -25,6 +25,7 @@ function dark() {
     //dqh
     document.documentElement.style.setProperty('--dqh', "invert(100%)")
     //cookie
+    document.cookie = "mode=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     document.cookie = "mode=dark";
     //czp
     document.documentElement.style.setProperty('--bg-cl', '#333333')
@@ -41,6 +42,7 @@ function light() {
     //dqh
     document.documentElement.style.setProperty('--dqh', "invert(0%)")
     //cookie
+    document.cookie = "mode=; expires=Thu, 01 Jan 1970 00:00:00 GMT";
     document.cookie = "mode=light";
     //czp
     document.documentElement.style.setProperty('--bg-cl', '#FAF9DE')
