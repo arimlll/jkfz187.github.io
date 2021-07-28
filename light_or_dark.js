@@ -25,8 +25,8 @@ function dark(){
     //dqh
     document.documentElement.style.setProperty('--dqh', "invert(100%)")
     //cookie
-    document.cookie = "mode=light;expires=Thu, 01 Jan 1970 00:00:00 GMT"
-    document.cookie = "mode=dark";
+    document.cookie = "mode=light;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+    document.cookie = "mode=dark;path=/";
     //czp
     document.documentElement.style.setProperty('--bg-cl', '#333333')
     document.documentElement.style.setProperty('--ft-cl', '#666666')
@@ -42,8 +42,8 @@ function light(){
     //dqh
     document.documentElement.style.setProperty('--dqh', "invert(0%)")
     //cookie
-    document.cookie = "mode=dark;expires=Thu, 01 Jan 1970 00:00:00 GMT"
-    document.cookie = "mode=light";
+    document.cookie = "mode=dark;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/"
+    document.cookie = "mode=light;path=/";
     //czp
     document.documentElement.style.setProperty('--bg-cl', '#FAF9DE')
     document.documentElement.style.setProperty('--ft-cl', 'black')
