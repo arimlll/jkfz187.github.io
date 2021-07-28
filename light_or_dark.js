@@ -5,7 +5,7 @@ if(cookie == "mode=dark") {
 if(cookie == "mode=light") {
     light()
 }
-if(cookie == "") {
+if(cookie == null) {
     if(window.matchMedia('(prefers-color-scheme)').media === 'not all') {
         document.getElementById("no-light-or-dark").style.display = "block"
     }
