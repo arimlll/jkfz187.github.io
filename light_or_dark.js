@@ -1,23 +1,23 @@
 var cookie = document.cookie;
-if (cookie == "mode=dark") {
+if(cookie == "mode=dark") {
     dark()
 }
-if (cookie == "mode=light") {
+if(cookie == "mode=light") {
     light()
 }
-else {
-    if (window.matchMedia('(prefers-color-scheme)').media === 'not all') {
+if(cookie == "") {
+    if(window.matchMedia('(prefers-color-scheme)').media === 'not all') {
         document.getElementById("no-light-or-dark").style.display = "block"
     }
-    if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+    if(window.matchMedia('(prefers-color-scheme: light)').matches) {
         light()
     }
-    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches) {
         dark()
     }
 }
 
-function dark() {
+function dark(){
     document.documentElement.style.setProperty('--bg-light-or-dark', "#333333")
     document.documentElement.style.setProperty('--bd-light-or-dark', "#252525")
     document.documentElement.style.setProperty('--ft-light-or-dark', "#666666")
@@ -34,7 +34,7 @@ function dark() {
     document.getElementById("czp_light").style.display = "inline"
 }
 
-function light() {
+function light(){
     document.documentElement.style.setProperty('--bg-light-or-dark', "#f8f9fb")
     document.documentElement.style.setProperty('--bd-light-or-dark', "white")
     document.documentElement.style.setProperty('--ft-light-or-dark', "black")
