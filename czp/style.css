@@ -58,6 +58,11 @@ hr{
     border: 0 !important;
 }
 
+/* 徽章 */
+.badge{
+    color: var(--bg-cl) !important;
+}
+
 /* 下拉菜单 */
 .dropdown-menu, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
     background: var(--bg-cl) !important;
