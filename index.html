@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="hitokoto.js"></script>
 </head>
 
 <body id="body"><br>
@@ -23,9 +24,7 @@
                     <h1>
                         江科附中<br class="hidden-md hidden-lg">2018级七班
                     </h1>
-                    <p style="font-size:x-large;">
-                        Jiangxi University of Technology High School Class 7 Grade 2018
-                    </p>
+                    <p style="font-size:x-large;" id="hitokoto">&nbsp;</p>
                 </div>
             </div>
         </div>
@@ -63,7 +62,7 @@
             </ul>
         </div>
     </div><br>
-    <div class="row" style="margin:0 auto">
+    <div class="row" style="margin:0;">
         <div class="container">
             <div class="alert alert-info hidden-lg">移动端暂不支持查看教师信息</div>
             <div class="row clearfix">
@@ -272,8 +271,9 @@
     </div>
     <br><br><br><br>
     <p style="text-align:center;font-size:small;">
-        Copyright © 2021 Ariml<br>
-        GNU Affero General Public License v3.0
+        Copyright © 2021 Ariml. AGPL v3<br>
+        随机句子出自<span id="hitokoto_from"></span><br class="hidden-md hidden-lg">
+        由<a href="https://hitokoto.cn/" target="_blank" style="text-decoration:none">「一言」</a>提供
     </p>
 </body>
 
