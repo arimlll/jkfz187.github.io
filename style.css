@@ -99,6 +99,11 @@ li > a{
     border: 1px solid #666666 !important;
 }
 
+#hitokoto, #hitokoto_from{
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.5s;
+}
+
 /* dqh */
 #dqh{
     filter: var(--dqh);
