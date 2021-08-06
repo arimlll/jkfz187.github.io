@@ -11,7 +11,7 @@ sleep(500).then(() => $(function () {
             var hitokoto = document.getElementById('hitokoto')
             hitokoto.innerText = data.hitokoto
             var hitokoto_from = document.getElementById('hitokoto_from')
-            if (data.from == "internet" || data.from == "网络" || data.from == "原创" || data.from == "贴吧" || data.from == "网易云" || data.from == "网友" || data.from == "知乎") {
+            if (data.from == "internet" || data.from == "Internet" || data.from == "网络" || data.from == "原创" || data.from == "贴吧" || data.from == "网易云" || data.from == "网友" || data.from == "知乎") {
                 hitokoto_from.innerText = data.from
             } else if (data.from == "来自网络") {
                 hitokoto_from.innerText = "网络"

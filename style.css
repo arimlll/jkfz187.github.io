@@ -3,6 +3,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    transition: all 0.3s;
 }
 
 :root{
@@ -45,6 +46,10 @@ h1{
     background: var(--bg-light-or-dark) !important; 
 }
 
+li.active:hover>a:hover{
+    filter: invert(5%);
+}
+
 li > a{
     color: var(--ft-light-or-dark) !important;
 }
@@ -62,6 +67,10 @@ li > a{
 }
 
 /* 教师信息 */
+
+.carousel-inner{
+    border-radius: 20px;
+}
 
 .item img{
     width: 80%;
@@ -104,7 +113,31 @@ li > a{
     transition: color 0.5s;
 }
 
+.images img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    cursor: pointer;
+    filter: var(--im-light-or-dark);
+}
+
+.images:hover img{
+    transform: translate(0px, -15px);
+}
+
 /* dqh */
 #dqh{
     filter: var(--dqh);
+}
+
+.h1{
+    color: var(--ft-light-or-dark) !important;
+}
+
+.nav-stacked>li{
+    background: var(--bg-light-or-dark) !important;
+}
+
+.nav-stacked>li:hover{
+    filter: invert(5%);
 }
