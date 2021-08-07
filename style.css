@@ -38,6 +38,10 @@ h1{
     filter:var(--im-light-or-dark);
 }
 
+.modal-content{
+    background: var(--bg-light-or-dark) !important;
+}
+
 .modal-open {
     overflow-y: auto !important;
     padding-right: 0 !important;
