@@ -34,6 +34,11 @@ h1{
     filter:var(--im-light-or-dark);
 }
 
+.modal-open {
+    overflow-y: auto !important;
+    padding-right: 0 !important;
+}
+
 /* 头部信息 */
 
 .jumbotron{
@@ -65,6 +70,22 @@ li > a{
     color: black;
     border: 1px solid #f8f9fb;
 }
+
+#hitokoto_from{
+    opacity: 0.35;
+}
+
+
+#hitokoto{
+    opacity: 0.7;
+}
+
+#hitokoto, #hitokoto_from{
+    font-size: x-large;
+    color: rgba(255, 255, 255, 0);
+    transition: color 0.5s;
+}
+
 
 /* 教师信息 */
 
@@ -108,11 +129,6 @@ li > a{
     border: 1px solid #666666 !important;
 }
 
-#hitokoto, #hitokoto_from{
-    color: rgba(255, 255, 255, 0);
-    transition: color 0.5s;
-}
-
 .images img{
     width: 100%;
     height: auto;
@@ -123,6 +139,17 @@ li > a{
 
 .images:hover img{
     transform: translate(0px, -15px);
+}
+
+.tailer{
+    width: 100%;
+    background: var(--bg-light-or-dark);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.tailer p{
+    font-size: small;
 }
 
 /* dqh */
