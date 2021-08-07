@@ -26,6 +26,10 @@ p{
     color:var(--ft-light-or-dark);
 }
 
+a{
+    text-decoration:none
+}
+
 h1{
     color:var(--ft-light-or-dark) !important;
 }
