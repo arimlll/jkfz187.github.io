@@ -160,6 +160,11 @@ li > a{
     font-size: small;
 }
 
+.close{
+    color: var(--bd-light-or-dark) !important;
+    filter: invert(100%);
+}
+
 /* dqh */
 #dqh{
     filter: var(--dqh);
