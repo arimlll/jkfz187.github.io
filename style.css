@@ -175,9 +175,15 @@ li > a{
 }
 
 .nav-stacked>li{
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+.nav-stacked>li>a{
     background: var(--bg-light-or-dark) !important;
 }
 
-.nav-stacked>li:hover{
+.nav-stacked>li>a:hover{
+    background: var(--bg-light-or-dark) !important;
     transform: translate(-15px, 0px);
+    filter: invert(3%);
 }
