@@ -25,7 +25,7 @@ function dark() {
     document.documentElement.style.setProperty('--ft-light-or-dark', "#666666")
     document.documentElement.style.setProperty('--im-light-or-dark', "opacity(50%)")
     //dqh
-    document.documentElement.style.setProperty('--dqh', "invert(100%)")
+    document.documentElement.style.setProperty('--dqh', "invert(50%)")
     //cookie
     document.cookie = "mode=dark;path=/";
     //czp
