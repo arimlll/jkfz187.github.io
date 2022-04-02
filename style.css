@@ -99,6 +99,7 @@ li > a{
 
 .carousel-inner{
     border-radius: 20px;
+    transition: font-size 0s;
 }
 
 .item img{
