@@ -87,3 +87,35 @@ hr{
 .navbar-default .navbar-nav>li>a:hover, .dropdown-menu>li>a{
     color: var(--ft-cl) !important;
 }
+
+div.money{
+    text-align: center;
+    text-indent: 0;
+}
+
+input[type=text]{
+    background-color: rgba(255, 255, 255, 0);
+    outline-style: none;
+    border: 1px solid rgba(136, 136, 136, 0.5);
+    border-radius: 50px;
+    text-align: center;
+    color: var(--ft-cl);
+    font-size: large;
+}
+
+input[type=text]::-webkit-input-placeholder{
+    color: rgba(136, 136, 136, 0.5);
+}
+
+input[type=text]:focus{
+    box-shadow: none;
+    border: 1px solid var(--ft-cl);
+}
+
+button.money{
+    margin-top: 1vh;
+    width: 30%;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: large;
+    border: none;
+}
