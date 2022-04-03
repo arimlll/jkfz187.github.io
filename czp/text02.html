@@ -49,7 +49,7 @@
                             <li><a href="#c1">第一章 满分</a></li>
                             <li><a href="#c2">第二章 此阶段的小剧场（短）</a></li>
                             <li><a href="#c3">第三章 怦然心动</a></li>
-                            <li><a href="#c4">第四章 付费章节测试 🔒</a></li>
+                            <li><a href="#c4">第四章 付费章节测试 <span id="lock">🔒</span></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -167,7 +167,8 @@
         <div class="money" id="money_0">
         <p>查看本章节需要密钥</p>
         <input type="text" class="form-control" id="key" placeholder="请输入密钥">
-        <button class="money" onclick="money()">- 确定 -</button>
+        <button id="money_enter" onclick="money_enter()">- 确定 -</button>
+        <button id="money_clear" onclick="money_clear()">清空</button>
         </div>
         <br><br><p>未完待续……</p><br>
     </div>
