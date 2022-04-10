@@ -14,14 +14,14 @@ document.onkeydown = function (e) {
 
     if (code == 37){
         flag = "left"
-        document.getElementById("money_enter").innerHTML = "- 确定 -"
-        document.getElementById("money_clear").innerHTML = "清空"
+        document.getElementById("money_enter").innerHTML = " 确定 ↩️"
+        document.getElementById("money_clear").innerHTML = "清空 ➡️"
     }
 
     if (code == 39){
         flag = "right"
-        document.getElementById("money_enter").innerHTML = "确定"
-        document.getElementById("money_clear").innerHTML = "- 清空 -"
+        document.getElementById("money_enter").innerHTML = "确定 ⬅️"
+        document.getElementById("money_clear").innerHTML = "清空 ↩️"
     }
 }
 
