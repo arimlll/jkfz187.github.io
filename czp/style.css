@@ -56,6 +56,7 @@ hr{
     position: sticky !important;
     top: 0 !important;
     border: 0 !important;
+    z-index: 1;
 }
 
 /* 徽章 */
@@ -64,6 +65,10 @@ hr{
 }
 
 /* 下拉菜单 */
+.dropdown-menu{
+    border-radius: 10px !important;
+}
+
 .dropdown-menu, .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
     background: var(--bg-cl) !important;
     cursor: pointer;
@@ -94,6 +99,7 @@ div.money{
 }
 
 input[type=text]{
+    filter: var(--im-light-or-dark);
     background-color: rgba(255, 255, 255, 0);
     outline-style: none;
     border: 1px solid rgba(136, 136, 136, 0.5);
@@ -118,4 +124,8 @@ button#money_enter,#money_clear{
     background-color: rgba(255, 255, 255, 0);
     font-size: large;
     border: none;
+}
+
+.lock{
+    filter: var(--dqh) var(--im-light-or-dark);
 }

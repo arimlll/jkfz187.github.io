@@ -160,12 +160,19 @@ li > a{
     font-size: small;
 }
 
+/* 关于 */
+
+.modal-content{
+    border-radius: 20px !important;
+}
+
 .close{
     color: var(--bd-light-or-dark) !important;
     filter: invert(100%);
 }
 
 /* dqh */
+
 #dqh{
     filter: var(--dqh);
 }
